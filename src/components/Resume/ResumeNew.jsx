@@ -9,8 +9,10 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+  // "https://github.com/mabdullahjs/Portfolio-Using-ReactJs/blob/3239a6c7a3d1b0d2860097b02fea995b2791f43a/src/Assets/Muhammad's%20Resume.pdf";
 
+  "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
+// "https://github.com/soumyajit4419/Portfolio/blob/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
 
@@ -20,6 +22,9 @@ function ResumeNew() {
 
   return (
     <div>
+      <a  href={pdf} download="pdf" target="_blank">
+        <Button style={{marginTop:"5rem"}}>My Example Doc</Button>
+      </a>
       <Container fluid className="resume-section">
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
