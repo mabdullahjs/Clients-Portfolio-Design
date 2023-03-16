@@ -7,8 +7,8 @@ function Resumedata() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span className="purple">Junior Web Developer</span>{" "}
-            <span>at SkySoft Solutions I have been working as a junior web developer and I have learned alot of things. I think it is very important to build a strong foundation at the beginning so that you can fit into your companies culture.</span>
+            <span className="purple">Front End Developer</span>{" "}
+            <span>at SkySoft Solutions I have been working as a Front End Developer and I have learned alot of things. I think it is very important to build a strong foundation at the beginning so that you can fit into your companies culture.</span>
             <br />
             <br />
            

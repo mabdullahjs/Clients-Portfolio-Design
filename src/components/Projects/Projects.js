@@ -78,7 +78,7 @@ function Projects() {
               imgPath={tkh}
               isBlog={false}
               title="Theek Kar Dengey "
-              description="TThis is a mobile repairing website which contain all e-commerce features and it is made using react js and antd. You can fix and buy repaired products on the website."
+              description="This is a mobile repairing website which contain all e-commerce features and it is made using react js and antd. You can fix and buy repaired products on the website."
               ghLink="https://github.com/mabdullahjs/Mobile-Repair-ReactJs"
               demoLink="https://tkh-123.web.app/"              
             />
