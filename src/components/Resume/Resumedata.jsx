@@ -7,27 +7,30 @@ function Resumedata() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            <span className="purple">Front End Developer</span>{" "}
-            <span>at SkySoft Solutions I have been working as a Front End Developer and I have learned alot of things. I think it is very important to build a strong foundation at the beginning so that you can fit into your companies culture.</span>
+            <span className="purple">React JS Developer</span>{" "}
+            <span>at SkySoft Solutions, gaining valuable experience and skills in the field.
+              Built a strong foundation in Front End Development that allowed me to fit seamlessly into the company's culture.</span>
             <br />
             <br />
-           
+
+            <span className="purple">Internship Experience</span>{" "}
+            <span>Achieved the distinction of being the top student in the Jawan Pakistan Program's backend development track.</span>
+            <br />
+            <br />
+
             <span className="purple">Hackathon Experience</span>{" "}
+            <span>Participated in a 12-hour Hackathon at SMIT, which taught me how to work on a competitive task under time constraints and pressure.</span>
+            <br />
+            <br />
+            <span className="purple">Internship Experience</span>{" "}
             <span>
-              I Participated in 12 hours{" "}
-              <span className="purple">Hackathon</span> of SMIT where i learned to do a competitive task in less time.
+            Completed an internship at SMIT, where I gained advanced knowledge of JavaScript and learned how to approach and solve difficult programming tasks with a cool mindset.
             </span>
             <br />
             <br />
-            <span className="purple">Internship Experience at</span>{" "}
+            <span className="purple">Internship Experience</span>{" "}
             <span>
-            SMIT where I learned Advance javaScript and How to tackle with difficult programming tasks and to solve them with cool mindset.
-            </span>
-            <br />
-            <br />
-            <span className="purple">Internship Experience at</span>{" "}
-            <span>
-              Coderatory where I learn the roadmap of front end development and How to work in the market.
+            Completed an internship at Coderatory, where I learned about the roadmap of Front End Development and how to effectively work in the market.
             </span>
             <br />
             <br />
