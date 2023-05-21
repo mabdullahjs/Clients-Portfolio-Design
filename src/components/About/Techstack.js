@@ -6,10 +6,19 @@ import {
   DiNodejs,
   DiMongodb,
   DiGit,
+  DiCss3
 } from "react-icons/di";
+import {
+  AiFillHtml5
+} from "react-icons/ai";
 import {
   SiFirebase,
   SiNextdotjs,
+  SiTypescript,
+  SiRedux,
+  SiExpress,
+  SiTailwindcss,
+  SiBootstrap
 } from "react-icons/si";
 import {
   TbBrandReactNative,
@@ -22,13 +31,34 @@ function Techstack() {
         <CgCPlusPlus />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
+        <AiFillHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiExpress />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />

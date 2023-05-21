@@ -13,6 +13,8 @@ function AboutCard() {
             <br />I am a junior Web Developer and student of SMIT Karachi.
             <br />
             <br />
+            <br />
+            <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
@@ -27,10 +29,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Abdullah</footer>
+         
         </blockquote>
       </Card.Body>
     </Card>
