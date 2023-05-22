@@ -2,9 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
 import Button from "react-bootstrap/Button";
-// import pdf from "../Assets/Muhammad's Resume.pdf";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import {
@@ -14,6 +12,7 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+import { AiOutlineMessage } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
@@ -90,6 +89,15 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiOutlineMessage style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
 

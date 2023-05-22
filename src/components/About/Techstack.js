@@ -20,9 +20,6 @@ import {
   SiTailwindcss,
   SiBootstrap
 } from "react-icons/si";
-import {
-  TbBrandReactNative,
-} from "react-icons/tb";
 
 function Techstack() {
   return (
@@ -71,9 +68,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandReactNative />
       </Col>
     </Row>
   );
