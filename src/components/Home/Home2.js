@@ -20,36 +20,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              
+            Hello! I am a skilled social media manager and graphic designer dedicated to enhancing my clients' personal branding.
               <br />
-              <br />I am fluent in classics like
+              <br />With a passion for creativity
+              and a deep understanding of social media trends, I strive to craft visually captivating content that resonates with audiences and elevates their online presence.&nbsp;
               <i>
-                <b className="purple"> Javascript, ReactJs and React Native. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple"></b>
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js</b>
+              Through strategic planning and innovative design, I am committed to helping individuals build a strong and authentic personal brand in the digital landscape.
               </i>
             </p>
           </Col>
@@ -66,7 +43,7 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://github.com/mabdullahjs"
                   target="_blank"
@@ -85,10 +62,10 @@ function Home2() {
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/mabdullahjs/"
+                  href="https://www.linkedin.com/in/ammar-khan-361b74256/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -98,7 +75,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/m.abdullah_317/"
+                  href="https://www.instagram.com/_azsmr/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -108,7 +85,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="mailto:mabdullah2037@gmail.com"
+                  href="mailto:ak2289452@gmail.com"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
